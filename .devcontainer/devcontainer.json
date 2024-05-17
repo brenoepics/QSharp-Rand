@@ -11,7 +11,6 @@
 		},
 		"ghcr.io/devcontainers/features/rust:1": {}
 	},
-	"postCreateCommand": "npm install -g wasm-pack && cargo update --dry-run",
 	"customizations": {
 		"vscode": {
 			"extensions": [
