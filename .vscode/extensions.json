@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-python.python",
+    "ms-python.black-formatter",
+    "rust-lang.rust-analyzer",
+    "vadimcn.vscode-lldb",
+    "swellaby.workspace-config-plus"
+  ],
+  "unwantedRecommendations": ["quantum.quantum-devkit-vscode"]
+}
