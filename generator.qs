@@ -99,7 +99,7 @@ namespace Generator {
         return primes;
     }
 
-        /// # Summary
+    /// # Summary
     /// Checks if a given number is in an array.
     function IsInArray(arr : Int[], item : Int) : Bool {
         for elem in arr {
