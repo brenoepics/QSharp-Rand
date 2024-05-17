@@ -1,0 +1,30 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+{
+	"name": "qsharp",
+	"image": "mcr.microsoft.com/devcontainers/cpp",
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {},
+		"ghcr.io/devcontainers/features/node:1": {
+			"nodeGypDependencies": true,
+			"version": "lts"
+		},
+		"ghcr.io/devcontainers/features/rust:1": {}
+	},
+	"postCreateCommand": "npm install -g wasm-pack && cargo update --dry-run",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"DavidAnson.vscode-markdownlint",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"ms-python.python",
+				"ms-python.black-formatter",
+				"ms-toolsai.jupyter",
+				"rust-lang.rust-analyzer",
+				"vadimcn.vscode-lldb",
+				"swellaby.workspace-config-plus"
+			]
+		}
+	}
+}
